@@ -1,0 +1,17 @@
+fastapi==0.104.1
+uvicorn==0.24.0
+scikit-learn==1.3.2
+transformers==4.35.2
+torch==2.1.1  # Pour Transformer, et Colab a du GPU support
+datasets==2.14.7  # Pour Hugging Face datasets
+mlflow==2.9.2
+dvc==3.30.1
+pytest==7.4.3
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+prometheus-fastapi-instrumentator==6.1.0
+langdetect==1.0.9  # Pour détection de langue dans l'agent
+presidio-analyzer==2.2.33  # Optionnel pour scrub PII (masquer infos perso)
+pandas==2.1.3
+numpy==1.26.2
